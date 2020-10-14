@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Software Order Form</h1>
+
+    <form action="/action_page.php">
+
+    <h6>License details</h6>
+
+    <ul style="list-style: circle;">
+        <li>Email adress <input type="text" required></li>
+        <li>Website <input type="text" required></li>
+        <li>Number of licenses <input type="text" required></li>
+    </ul>
+
+    <h6>Biling details</h6>
+
+    <ul style="list-style: circle;">
+        <li>Name <input type="text" required></li>
+        <li>Adress <input type="text" required></li>
+        <li>Postal code <input type="text" required></li>
+        <li>Country <label for="Country" aria-required="true"></label>
+            <select name="Country">
+                <option value="Crna Gore">Crna Gore</option>
+                <option value="Spanija">Spanija</option>
+                <option value="Italija">Italija</option>
+                <option value="Grcka">Grcka</option>
+                <option value="Australija">Australija</option>
+            </select>
+        
+        </li>
+
+    </ul>
+
+    <h6>Payment details</h6>
+
+    <ul style="list-style: circle;">
+        <li>Card Number <input type="text" required></li>
+        <li>CVV code <input type="text" required></li>
+        <li>Expiry date <input type="text" required></li>
+    </ul>
+
+    <input type="button" value="Place Your Order">
+
+
+</form>
+</body>
+</html>

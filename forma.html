@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+
+        <table>
+
+            <style>
+                table, th, td {
+                  border: 1px solid black;
+                }
+                </style>
+
+        <form action="/action_page.php">
+                <tr>
+                <th colspan="2">Pizza Shop 2.0</th> </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" maxlength="20"></td>
+                
+            </tr> 
+            <tr>
+                <td>Pizza Toping</td>
+                <td><input type="radio">Supreme <br> <input type="radio">Vegeterian <br> <input type="radio">Hawaiian</td> 
+            </tr>
+
+            <tr>
+                <td>Pizza Souce</td>
+                <td>
+                    <label for="souce"></label>
+                    <select name="souce" >
+                        <option value="Tomato">Tomato</option>
+                        <option value="Garlic">Garlic</option>
+                        <option value="Hot souce">Hot Souce</option>
+                        <option value="Mayo">Mayo</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox">Extra cheese
+                    <input type="checkbox">Gluten Free Base
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    Delivery instructions: <br>
+                <input type="textarea" maxlength="100" aria-rowindex="5" aria-colindex="2" required>
+            </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Send my order">
+                </td>
+            </tr>
+
+
+
+                 </form>
+
+          </table> 
+    
+</body>
+</html>

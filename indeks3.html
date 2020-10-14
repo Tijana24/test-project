@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="task_1">
+        <nav>
+          <a href="#task_1">Jump to task_1</a> <br>
+          <a href="#task_2">Jump to task_2</a> <br>
+          <a href="#task_3">Jump to task_3</a> <br>
+          <a href="#task_4">Jump to task_4</a> <br>
+        </nav>
+    </div>
+
+    <div>
+        <h1 id="task_1">CV</h1>
+        <form action="/action_page.php">
+            <img src="./me.jpg" alt="Ovo sam ja" height="150" width="100">
+            <ul>
+                <li>Ime i prezime <input type="text"></li>
+                <li>Adresa <input type="text"></li>
+                <li>Datum rodjenja <input type="text"></li>
+                <li> <label for="Pol">Pol</label>
+                    <select name="Pol">
+                        <option value="M">M</option>
+                        <option value="Z">Z</option>
+                    </select>
+                </li>
+            </ul>
+                <h2 id="task_2">Radno iskustvo</h2>
+                <ol style="list-style: decimal;">
+                    <li><input type="text" maxlength="100"></li>
+                    <li><input type="text" maxlength="100"></li>
+                    <li><input type="text" maxlength="100"></li>
+                    <li><input type="text" maxlength="100"></li>
+                    <li><input type="text" maxlength="100"></li>
+                    <li><input type="text" maxlength="100"></li>
+                </ol>
+
+                <h3>Poznavanje programskih jezika</h3>
+                <ul>
+                    <li>Java <input type="checkbox"></li>
+                    <li>C++ <input type="checkbox"></li>
+                    <li>Payton <input type="checkbox"></li>
+                    <li>PHP <input type="checkbox" ></li>
+                </ul>
+                <strong>
+                    Vas moto: <br>
+                    <input type="textarea">
+                </strong>
+        </form>
+
+        <p>
+          <ins>Linkovi profila na drustevnim mrezama: </ins> <br> <br>
+        <a href="https://www.instagram.com/">instagram</a><br>
+        <a href="https://www.facebbok.com/">facebook</a> <br>
+        <a href="https://www.twitter.com/">twitter</a> <br>
+        </p>
+    </div>
+
+    <div>
+        <table>
+            <style>
+                table, th, td {
+                    border: 1px solid blueviolet; background-color: cyan;
+                }
+            </style>
+            <caption id="task_3">Omiljeni filmovi</caption>
+            <tr>
+                <th>Ime filma</th>
+                <th>Kratak opis</th>
+                <th>Zanr</th>
+                <th>Datum izlaska</th>
+                <th>Cover slika</th>
+                <th>link</th>
+            </tr>
+
+            <tr>
+                <td>The Godfather</td>
+                <td>aaaaaaaaaaa</td>
+                <td>Drama, Crime</td>
+                <td>1972</td>
+                <td><img src="./1.jpg" alt="Opis slika" height="100" width="100"></td>
+                <td><a href="https://www.imdb.com/title/tt0068646/">vise informacija</a></td>
+            </tr>
+
+            <tr>
+                <td>The Dark Knight</td>
+                <td>bbbbbbbbb</td>
+                <td>Action ,Drama, Crime</td>
+                <td>2008</td>
+                <td><img src="./2.jpg" alt="Opis slika" height="100" width="100"></td>
+                <td><a href="https://www.imdb.com/title/tt0468569/">vise informacija</a></td>
+            </tr>
+
+
+            <tr>
+                <td>Fight Club</td>
+                <td>ccccccc</td>
+                <td>Drama</td>
+                <td>1999</td>
+                <td><img src="./3.jpg" alt="Opis slika" height="100" width="100"></td>
+                <td><a href="https://www.imdb.com/title/tt0137523/">vise informacija</a></td>
+            </tr>
+
+            <tr>
+                <td>Schilnder's list</td>
+                <td>dddddd</td>
+                <td>Drama, Bipgraphy, History</td>
+                <td>1993</td>
+                <td><img src="./4.jpg" alt="Opis slika" height="100" width="100"></td>
+                <td><a href="https://www.imdb.com/title/tt0108052/">vise informacija</a></td>
+            </tr>
+
+            <tr>
+                <td>The Matrix</td>
+                <td>eeeeee</td>
+                <td>Action, Sci-Fi</td>
+                <td>1999</td>
+                <td><img src="./5.jpg" alt="Opis slika" height="100" width="100"></td>
+                <td><a href="https://www.imdb.com/title/tt0133093/">vise informacija</a></td>
+            </tr>
+        </table>
+
+    </div>
+ <br> <br>
+    <div >
+        <p id="task_4">Job Application With Resume Upload</p>
+        <caption>Contact Information</caption> <br><br>
+        <form action="/action_page.php">
+            First name* &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Last name* <br><br>
+            <input type="text" required > <input type="text" required > <br>
+            Email* <br>
+            <input type="text" required> <br>
+            Phone* <br>
+            <input type="text" required> <br>
+
+            <strong>Position</strong> <br>
+            <label for="Position you are applying for ">Position you are applying for</label> <br>
+            <select name="Position you are applying for" >
+                <option value="Backend NodeJs">Backend NodeJs</option>
+                <option value="Backend Python">Backend Python</option>
+                <option value="Frontend React">Frontend React</option>
+                <option value="Frontend Angular">Frontend Angular</option>
+                <option selected value="Frontend React">Frontend React</option>
+            </select> <br>
+            Resume Upload <br>
+            <input type="text"> <input type="button" value="Upload"> <br>
+            Portfolio website <br>
+            <input type="text"> <br>
+            Safety requirements <br>
+            <input type="text"> <br>
+            When you can start? <br>
+            <input type="text"> <br>
+            Are you willing to ... ? <br>
+            <input type="checkbox">Yes<br>
+            <input type="checkbox" >No <br>
+            <input type="checkbox" >Not sure<br>
+            Last company you have worked for ? <br>
+            <input type="text" ><br>
+            Comments <br>
+            <textarea name="comments" rows="5" cols="30">
+                </textarea> <br>
+
+                <input type="button" value="Submit">
+        </form>
+    
+    </div>    
+</body>
+</html>
