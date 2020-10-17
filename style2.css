@@ -1,0 +1,8 @@
+li[title]{
+    font-size:30px;
+}
+
+a[href$="pdf"]{
+    font-size: small;
+}
+    
