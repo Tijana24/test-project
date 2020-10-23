@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #prviNaslov{
+        font-size: 30px;
+        text-shadow: 0 0 3px ;
+        text-align: center;
+    }
+
+    #drugiNaslov{
+        font-size: 18px;
+        text-shadow: 0 0 3px;
+        text-align: justify;
+       
+    }
+    #celina{
+        border-top: dotted yellow;
+        border-right: solid green ;
+        border-bottom: double blue;
+        border-left: dashed red;
+        width: 500px;
+        height: 300px;
+    }
+    .dot {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display:inline-block;
+  border: dashed white;
+  object-position: right;
+
+}
+    
+ 
+    
+    .krug1{
+        background-color: blue;
+        width: 450px;
+        height: 150px;
+        border-radius: 50px 50px 50px 50px;
+        }
+    .krug2{
+        background-color: green;
+        width: 440px;
+        height: 140px;
+        border-radius: 50px 50px 50px 50px;
+        }
+    .krug3{
+        background-color: yellow;
+        width: 430px;
+        height: 130px;
+        border-radius: 50px 50px 50px 50px;
+        }
+    .krug4{
+        background-color:red;
+        width: 420px;
+        height: 120px;
+        border-radius: 50px 50px 50px 50px;
+        }
+    .krug5{
+        background-color: white;
+        width: 410px;
+        height: 110px;
+        border-radius: 50px 50px 50px 50px;
+        
+    }
+    .krug1{
+        margin: auto;
+    }
+    .krug1, .krug2, .krug3, .krug4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .krug5{
+        position: absolute;
+       
+        }
+    .krug2{
+        position: absolute;
+    }    
+    .krug3{
+        position: absolute;
+    }
+    .krug4{
+        position: absolute;
+    }
+    #dugme1{
+        height: 20px;
+        width: 100px;
+        background-color: chocolate;
+        position:fixed;
+          }
+    #dugme2{
+        height: 20px;
+        width: 100px;
+        background-color: chocolate;
+        position: absolute;
+    }
+    
+</style>
+
+</head>
+<body>
+
+ <div id="celina">   
+    <h2 id="prviNaslov">TEXT SHADOWS ARE COOL</h2>
+    <h7 id="drugiNaslov">These text fields look like buttons, right? </h7>
+    
+    
+    <div class="krug1">
+        <div class="krug2">
+            <div class="krug3">
+                <div class="krug4">
+                    <div class="krug5">
+                        <br><br>
+                        <h7 id="drugiNaslov">These text fields look like buttons, right? </h7><br>
+                        <input type="button" name="dugme1" id="dugme1"> <br>
+                        <input type="button" name="dugme2" id="dugme2">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="dot" id="prva"></div>
+
+</div>
+</body>
+</html>
