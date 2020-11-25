@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro clock</title>
+    <link rel="stylesheet" href="style5.css">
+    
+</head>
+<body>
+
+    <div class="pomodoro-container">
+        <div class="pomodoro-nav-bar">
+            <a href="#pomodoro" id="pomodoro-home" onclick="pomodoroHomeButtonFunction()">Pomodoro</a>
+            <a href="#ShortBrake" id="pomodoro-short-brake" onclick="pomodoroShortBrakeFunction()">Short Brake</a>
+            <a href="#longBrake" id="pomodoro-long-brake" onclick="pomodoroLongBrakeFunction()">Long Brake</a>
+        </div>
+
+        <div class="pomodoro-clock">
+            
+                <p class="pomodoro-clock-text"><span id="minutes">25</span><span>:</span><span id="seconds">00</span></p>
+            
+        </div>
+
+        <div class="pomodoro-clock-acions">
+            <button id="pomodoro-start" onclick="start_timer()">Start</button>
+            <button id="pomodoro-stop" onclick="stop_timer()">Stop</button>
+            <button id="pomodoro-reset" onclick="reset_timer()">Reset</button>
+        </div>
+        
+    </div>
+
+<script src="main5.js"></script>    
+</body>
+</html>

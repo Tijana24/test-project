@@ -1,0 +1,32 @@
+body{
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#output{
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 190px;
+    color: black;
+    align-items: center;
+    padding-top:  10px;
+}
+
+table,td, th{
+    background-color: rgb(6, 6, 75) ;
+    color: black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-spacing: 15px;
+}
+
+input[type="button"]{
+    background-color: rgba(6, 6, 153, 0.664);
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+

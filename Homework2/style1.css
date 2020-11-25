@@ -1,0 +1,8 @@
+html,body {
+    height: 100%;
+}
+
+.list-group-item:focus {
+    background-color: #343a40;
+    color: white;
+}

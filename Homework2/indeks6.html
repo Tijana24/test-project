@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style6.css">
+
+</head>
+<body>
+    <form name="calculator">
+        <table>
+            <tr>
+                <td> <input type="button" value="c" id="buttonC" onclick="functionButtonC()"></td>
+                <td colspan="3"><p id="output"></p></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" id="button7" onclick="functionForDisplay('7')"></td>
+                <td><input type="button" value="8" id="button8" onclick="functionForDisplay('8')"></td>
+                <td><input type="button" value="9" id="button9" onclick="functionForDisplay('9')"></td>
+                <td><input type="button" value="+" id="button+" onclick="functionForDisplay('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" id="button4" onclick="functionForDisplay('4')"></td>
+                <td><input type="button" value="5" id="button5" onclick="functionForDisplay('5')"></td>
+                <td><input type="button" value="6" id="button6" onclick="functionForDisplay('6')"></td>
+                <td><input type="button" value="-" id="button-" onclick="functionForDisplay('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" id="button1" onclick="functionForDisplay('1')"></td>
+                <td><input type="button" value="2" id="button2" onclick="functionForDisplay('2')"></td>
+                <td><input type="button" value="3" id="button3" onclick="functionForDisplay('3')"></td>
+                <td><input type="button" value="*" id="button*" onclick="functionForDisplay('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" id="button0" onclick="functionForDisplay('0')"></td>
+                <td><input type="button" value="." id="button." onclick="functionForDisplay('.')"></td>
+                <td><input type="button" value="=" id="button=" onclick="functionButtonSolve()"></td>
+                <td><input type="button" value="/" id="button/" onclick="functionForDisplay('/')"></td>
+            </tr>
+        </table>
+    </form>
+        
+    
+<script src="main6.js"></script>
+</body>
+</html>

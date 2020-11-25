@@ -1,0 +1,4 @@
+Ovaj dio sa JS-om mi je malo slabije isao. Nije da ne raumijem, ali jednostavno mislim da mi treba malo vise vremena da mi se sve fino poslozi u glavi :)
+Za pocetak mi je bilo previse apstraktno, a nisam imala previse vremena da se posvetim zbog fakulteta i drugih obaveza. 
+
+Prvi zadatak sam uradila uz pomoc kolege Marka, a onda sam odlucila da sve radim sama pa koliko budem umjela. Nije svaka stavka za svaki zadatak odradjena do kraja, ali sam se potrudila. :)
